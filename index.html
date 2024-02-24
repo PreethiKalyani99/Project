@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image and Form</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <img src="careerCounselling.jpg" alt="book session for career counselling">
+        <form>
+            <div class="container">
+                <fieldset class="field-input field-height border-color-select">
+                    <legend>First Name</legend>
+                    <input type="text" id="first-name" class="fName">
+                </fieldset>
+                <input type="text" placeholder="Last Name" class="lName box-size border-color-select">
+            </div>
+            <fieldset class="border-color-select">
+                <legend>Field Of Study</legend>
+                <select id="field" name="field-of-study" class="fName">
+                    <option value="" disabled selected>Select Field Of Study</option>
+                </select>
+            </fieldset>
+            <input type="email" class="box-size border-color-select" placeholder="Please type your email">
+            <div class="phone-number-container">
+                <select name="country-code" class="left-radius border-color-select">
+                    <option value="" disabled selected>Select</option>
+                </select>
+                <input type="tel" placeholder="Phone" class="box-size border-color-select">
+            </div>
+            <button class="box-size submit-btn border-color-select">Submit <img src="right-arrow.png" class="arrow"> </button>
+            <p class="para">By clicking submit you Agree to <a href="#">UpGrad's Terms  & Conditions</a></p>
+        </form>
+    </div>
+</body>
+</html>
